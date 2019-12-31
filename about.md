@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
+title: 나는
 permalink: /about/
 ---
 
-Some information about you!
+최동주
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
+### 연락처
 
-[email@domain.com](mailto:email@domain.com)
+[dongjuppp@gmail.com](mailto:dongjuppp@gmail.com)
