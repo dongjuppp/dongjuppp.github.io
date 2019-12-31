@@ -46,7 +46,7 @@
           {% for node in pages_list %}
             {% if node.title != null %}
               {% if node.layout == "category" %}
-                <li style="float: left; margin: 1px;"><a class="category-link {% if page.url == node.url %} active{% endif %}"
+                <li style="float: left; margin: 50px;"><a class="category-link {% if page.url == node.url %} active{% endif %}"
                 href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
               {% endif %}
             {% endif %}
