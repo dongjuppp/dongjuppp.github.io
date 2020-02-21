@@ -54,7 +54,7 @@ class DemoApplicationTests{
 ```
 여기까지 했다면 이제 이 클래스안에 메서드를 만들고 메서드 위에 @Test로 이 메서드가 Test라는 것을 설정하면 테스트 코드가 된다.
 
-1. 문자열 Test
+### 1 문자열 Test<br>
 문자열 Test는 값이 Null인지, 특정 단어를 포함하는지, 특정 단어로 시작하는지 등등 여러 검증이 있다. 이런 검증은 AssertJ에 메서드로 구현이 되어 있다.
 
 ```Java
@@ -71,9 +71,9 @@ void contextLoads() {
 위 코드는 hello world!라는 문자열은 검사한다. 우선 AssertJ는 검사하는 대상을 assertThat안에 넣고 그 후에 체이닝을 통해 검사하고자하는 것들을 넣을 수 있다. isNotNull부터 이름만 봐도 이 메서드가 무엇을 검증하는지 알 수 있다.
 <br>
 
-2. Collection Test
+### 2 Collection Test
 
-Collection은 자바에서 가장만이 사용되기 때문에 잘 알아 둘 필요가 있다 우선 이번에는 가장 많이 사용되는 List에 대해 알아보자
+Collection은 자바에서 가장많이 사용되기 때문에 잘 알아 둘 필요가 있다 우선 이번에는 가장 많이 사용되는 List에 대해 알아보자
 
 ```Java
 @Test
