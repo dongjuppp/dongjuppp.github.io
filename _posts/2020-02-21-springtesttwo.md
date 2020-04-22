@@ -90,6 +90,9 @@ public class EnrollService {
 ```
 위의 코드를 보면 @Mock로 Student를 Mock으로 만든 것이다. 그다음 contestLoads를 보면 given이라는 메서드에 getGrade를 인자로 주고 willReturn으로 3을 정했다. 메스드명이 직관적이라 한번에 이해가 가지만 설명을 하자면 given은 인자로 받은 메서드를 임의의 결과를 가지게 정하는 것이고 willReturn은 결과값을 우리가 정하는 것이다.
 <br>그다음 assertJ로 true를 리턴했는지 검사를 했다.
+<br> 여기서 given과 willReturn은 when과 thenReturn으로도 대체가 가능하다. 두 개의 차이는 테스트를 BDD로 할지 TDD로 할지의 차이이다. 자세한 설명은 여기에 있다
+<br>
+[https://blog.aliencube.org/ko/2014/04/02/differences-between-bdd-and-tdd/](https://blog.aliencube.org/ko/2014/04/02/differences-between-bdd-and-tdd/)
 <br><br>
 방식이 매우 간단하고 코드또한 직관적이다.
 
